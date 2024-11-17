@@ -1,6 +1,7 @@
 # SegmentBot: AI-Powered Image Segmentation and Editing Tool
 
 SegmentBot is a web-based application for performing zero-shot segmentation and image editing using state-of-the-art AI models such as GroundingDINO and Segment Anything Model (SAM). It provides an intuitive interface for detecting objects in images using natural language prompts and editing them with customizable effects like blurring.
+![UI](https://github.com/SvenPfiffner/SegmentBot/blob/main/ReadmeMedia/UI.png)
 
 ## Features
 - Zero-shot Segmentation: Detect objects in images using textual prompts without pre-training on specific classes.
@@ -12,6 +13,16 @@ SegmentBot is a web-based application for performing zero-shot segmentation and 
 - Streamlit-based Interface:
   - Upload images, configure settings, and view/download processed results.
 - Extensibility: Add your own editors using a modular system.
+
+### Example uses
+Seamlessly blur the background of subjects by prompting what to keep unblurred (In the example: Human)
+![Blur](https://github.com/SvenPfiffner/SegmentBot/blob/main/ReadmeMedia/Backgroundblur.png)
+
+Ensure privacy by prompting to segment human faces and setting the edit mode to pixelation
+![Pixel](https://github.com/SvenPfiffner/SegmentBot/blob/main/ReadmeMedia/FacePixels.png)
+
+Create Binary masks of objects by prompting for the desired object and setting the edit mode to return the raw mask
+![Mask](https://github.com/SvenPfiffner/SegmentBot/blob/main/ReadmeMedia/CarMask.png)
 
 ## Extending the Application
 Add a New Editor:
