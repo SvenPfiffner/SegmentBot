@@ -74,7 +74,9 @@ streamlit run SegmentBot/run.py
 5. Access the app in your browser at ```http://localhost:8501```.
 
 ## Acknowledgments
-A large portion of this project is made possible by state-of-the-art research on Segmentation models. The segmentation logic is based on the work of IDEA-Research on Grounded-Segment-Anything. 
+A large portion of this project is made possible by state-of-the-art research on Segmentation models. The segmentation logic is based on the work of IDEA-Research on Grounded-Segment-Anything. While the original work in this repository is licensed under GLP-3.0, the use of this software requires models and
+sourcecode from the projects below, where licensing terms for these parts carry over.
+
 [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
